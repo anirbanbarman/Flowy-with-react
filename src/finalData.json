@@ -1,0 +1,163 @@
+[
+    {
+        "blocks": "Triggers",
+        "id": "triggers",
+        "blockText": [
+            {
+                "blockId": 1,
+                "imgSrc": "eye",
+                "blockTitle": "New visitor",
+                "blockDesc": "Triggers when somebody visits a specified page",
+                "dropBlockDetails": {
+                    "dropImg":"eyeblue",
+                    "blockyname":"New visitor",
+                    "blockyright":"more",
+                    "blockyinfo":"When a <span>new visitor</span> goes to <span>Site 1</span>"
+
+                }
+            },
+            {
+                "blockId": 2,
+                "imgSrc": "action",
+                "blockTitle": "Action is performed",
+                "blockDesc": "Triggers when somebody performs a specified action",
+                "dropBlockDetails": {
+                    "dropImg":"actionblue",
+                    "blockyname":"Action is performed",
+                    "blockyright":"more",
+                    "blockyinfo":"When <span>Action 1</span> is performed"
+
+                }
+            },
+            {
+                "blockId": 3,
+                "imgSrc": "time",
+                "blockTitle": "Time has passed",
+                "blockDesc": "Triggers after a specified amount of time",
+                "dropBlockDetails": {
+                    "dropImg":"timeblue",
+                    "blockyname":"Time has passed",
+                    "blockyright":"more",
+                    "blockyinfo":"When <span>10 seconds</span> have passed"
+
+                }
+            },
+            {
+                "blockId": 4,
+                "imgSrc": "error",
+                "blockTitle": "Error prompt",
+                "blockDesc": "Triggers when a specified error happens",
+                "dropBlockDetails": {
+                    "dropImg":"errorblue",
+                    "blockyname":"Error prompt",
+                    "blockyright":"more",
+                    "blockyinfo":"When <span>Error 1</span> is triggered"
+
+                }
+            }
+        ]
+    },
+    {
+        "blocks": "Actions",
+        "id": "actions",
+        "blockText": [
+            {
+                "blockId": 5,
+                "imgSrc": "database",
+                "blockTitle": "New database entry",
+                "blockDesc": "Adds a new entry to a specified database",
+                "dropBlockDetails": {
+                    "dropImg":"databaseorange",
+                    "blockyname":"New database entry",
+                    "blockyright":"more",
+                    "blockyinfo":"Add <span>Data object</span> to <span>Database 1</span>"
+
+                }
+            },
+            {
+                "blockId": 6,
+                "imgSrc": "database",
+                "blockTitle": "Update database",
+                "blockDesc": "Edits and deletes database entries and properties",
+                "dropBlockDetails": {
+                    "dropImg":"databaseorange",
+                    "blockyname":"Update database",
+                    "blockyright":"more",
+                    "blockyinfo":"Update <span>Database 1</span>"
+
+                }
+            },
+            {
+                "blockId": 7,
+                "imgSrc": "action",
+                "blockTitle": "Perform an action",
+                "blockDesc": "Performs or edits a specified action",
+                "dropBlockDetails": {
+                    "dropImg":"actionorange",
+                    "blockyname":"Perform an action",
+                    "blockyright":"more",
+                    "blockyinfo":""
+
+                }
+            },
+            {
+                "blockId": 8,
+                "imgSrc": "twitter",
+                "blockTitle": "make a tweet",
+                "blockDesc": "Makes a tweet with a specified query",
+                "dropBlockDetails": {
+                    "dropImg":"twitterorange",
+                    "blockyname":"Make a tweet",
+                    "blockyright":"more",
+                    "blockyinfo":"Tweet <span>Query 1</span> with the account <span></span>"
+
+                }
+            }
+        ]
+    },
+    {
+        "blocks": "Loggers",
+        "id": "loggers",
+        "blockText": [
+            {
+                "blockId": 9,
+                "imgSrc": "log",
+                "blockTitle": "Add new log entry",
+                "blockDesc": "Adds a new log entry to this project",
+                "dropBlockDetails": {
+                    "dropImg":"logred",
+                    "blockyname":"Add new log entry",
+                    "blockyright":"more",
+                    "blockyinfo":"Add new <span>success</span> log entry"
+
+                }
+            },
+            {
+                "blockId": 10,
+                "imgSrc": "log",
+                "blockTitle": "Update logs",
+                "blockDesc": "Edits and deletes log entries and properties",
+                "dropBlockDetails": {
+                    "dropImg":"logred",
+                    "blockyname":"Update logs",
+                    "blockyright":"more",
+                    "blockyinfo":"Edit <span>Log Entry 1</span>"
+
+                }
+            },
+            {
+                "blockId": 11,
+                "imgSrc": "error",
+                "blockTitle": "Prompt an error",
+                "blockDesc": "Triggers a specified error",
+                "dropBlockDetails": {
+                    "dropImg":"timeblue",
+                    "blockyname":"Time has passed",
+                    "blockyright":"more",
+                    "blockyinfo":"Trigger <span>Error 1</span>"
+
+                }
+            }
+        ]
+    }
+]
