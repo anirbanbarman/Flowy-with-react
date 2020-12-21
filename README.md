@@ -1,5 +1,8 @@
 # Flowy with React
 
+### `Download the code`
+
+run "npm i"
 
 
 ### `npm start`
